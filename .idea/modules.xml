@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/Library/CloudStorage/Dropbox/Data Analysis Class_2023/UT Analysis Projects/.idea/UT Analysis Projects.iml" filepath="$USER_HOME$/Library/CloudStorage/Dropbox/Data Analysis Class_2023/UT Analysis Projects/.idea/UT Analysis Projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../GitLab/UTA-VIRT-DATA-PT-05-2024-U-LOLC/.idea/UTA-VIRT-DATA-PT-05-2024-U-LOLC.iml" filepath="$PROJECT_DIR$/../../GitLab/UTA-VIRT-DATA-PT-05-2024-U-LOLC/.idea/UTA-VIRT-DATA-PT-05-2024-U-LOLC.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/machine_learning.iml" filepath="$PROJECT_DIR$/.idea/machine_learning.iml" />
     </modules>
   </component>

@@ -4,5 +4,7 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="UT Analysis Projects" />
+    <orderEntry type="module" module-name="UTA-VIRT-DATA-PT-05-2024-U-LOLC" />
   </component>
 </module>
