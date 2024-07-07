@@ -4,61 +4,12 @@ This project aims to predict housing prices in Austin using various features rel
 
 ## Project Structure
 
-- `austin_housing_price_prediction.ipynb`: The Jupyter Notebook containing the complete workflow of the project.
+- `austin_house_analysis_visualization.ipynb`: The Jupyter Notebook containing data analysis and visualization.
+- `feather_engineering_prediction.ipynb`: The Jupyter Notebook containing feature engineering and prediction workflow.
 
 ## Data Description
 
-The dataset used in this project contains information about houses in Austin, including features such as location, property type, year built, number of bedrooms, bathrooms, living area, and more. The dataset covers the years 2018 to 2021.
-
-### Features
-
-- `zpid`: Unique identifier for the property.
-- `city`: City where the property is located.
-- `streetAddress`: Street address of the property.
-- `zipcode`: Zipcode of the property.
-- `description`: Description of the property.
-- `latitude`: Latitude coordinate of the property.
-- `longitude`: Longitude coordinate of the property.
-- `propertyTaxRate`: Property tax rate.
-- `garageSpaces`: Number of garage spaces.
-- `hasAssociation`: Whether the property has an association.
-- `hasCooling`: Whether the property has cooling.
-- `hasGarage`: Whether the property has a garage.
-- `hasHeating`: Whether the property has heating.
-- `hasSpa`: Whether the property has a spa.
-- `hasView`: Whether the property has a view.
-- `homeType`: Type of the property.
-- `parkingSpaces`: Number of parking spaces.
-- `yearBuilt`: Year the property was built.
-- `latestPrice`: Latest price of the property.
-- `numPriceChanges`: Number of price changes.
-- `latest_saledate`: Latest sale date.
-- `latest_salemonth`: Latest sale month.
-- `latest_saleyear`: Latest sale year.
-- `latestPriceSource`: Source of the latest price.
-- `numOfPhotos`: Number of photos.
-- `numOfAccessibilityFeatures`: Number of accessibility features.
-- `numOfAppliances`: Number of appliances.
-- `numOfParkingFeatures`: Number of parking features.
-- `numOfPatioAndPorchFeatures`: Number of patio and porch features.
-- `numOfSecurityFeatures`: Number of security features.
-- `numOfWaterfrontFeatures`: Number of waterfront features.
-- `numOfWindowFeatures`: Number of window features.
-- `numOfCommunityFeatures`: Number of community features.
-- `lotSizeSqFt`: Lot size in square feet.
-- `livingAreaSqFt`: Living area size in square feet.
-- `numOfPrimarySchools`: Number of primary schools nearby.
-- `numOfElementarySchools`: Number of elementary schools nearby.
-- `numOfMiddleSchools`: Number of middle schools nearby.
-- `numOfHighSchools`: Number of high schools nearby.
-- `avgSchoolDistance`: Average distance to nearby schools.
-- `avgSchoolRating`: Average rating of nearby schools.
-- `avgSchoolSize`: Average size of nearby schools.
-- `MedianStudentsPerTeacher`: Median number of students per teacher.
-- `numOfBathrooms`: Number of bathrooms.
-- `numOfBedrooms`: Number of bedrooms.
-- `numOfStories`: Number of stories.
-- `homeImage`: URL of the home image.
+The dataset used in this project contains information about houses in Austin, including features such as location, property type, year built, number of bedrooms, bathrooms, living area, and more. The dataset covers the years 2018 to 2021. For a detailed list of features, refer to the notebooks.
 
 ## Workflow
 
@@ -70,71 +21,45 @@ The dataset used in this project contains information about houses in Austin, in
 
 ### Feature Engineering
 
-- Create new features such as the ratio of bedrooms to living area size (`rooms_per_sqft`).
+- Create new features such as the ratio of bedrooms to living area size (`rooms_per_sqft`), house age, and price per square foot.
+- Analyze feature correlation and importance.
+
+### Data Analysis
+
+- Conduct exploratory data analysis (EDA) to understand data distribution and relationships between features.
+- Visualize the data using plots such as histograms, scatter plots, and heatmaps.
 
 ### Model Training and Tuning
 
-- Use RandomForestRegressor for initial model training.
+- Use Linear Regression for initial model training and evaluation.
+- Apply RandomForestRegressor for improved model performance.
 - Perform GridSearchCV for hyperparameter tuning.
 
 ### Model Evaluation
 
 - Calculate performance metrics such as Mean Squared Error (MSE) and R² score.
 - Plot actual vs. predicted values.
-- Analyze residuals.
-- Evaluate feature importance.
+- Analyze residuals and evaluate feature importance.
 
 ### Cross-Validation
 
 - Use cross-validation to assess the stability and generalization ability of the model.
 
+### Statistical Tests
+
+- Conduct Shapiro-Wilk test for normality of residuals.
+- Perform Levene test for homogeneity of variances.
+- Use t-test for comparing means of actual and predicted residuals.
+
 ## Results
 
-- Best Parameters: `{ 'model__max_depth': 20, 'model__min_samples_leaf': 2, 'model__min_samples_split': 2, 'model__n_estimators': 100 }`
-- Mean Squared Error (Best Model): 98105978363.12245
-- R² Score (Best Model): 0.5854810615842705
+- **Best Parameters:** `{ 'model__max_depth': 20, 'model__min_samples_leaf': 2, 'model__min_samples_split': 2, 'model__n_estimators': 100 }`
+- **Mean Squared Error (Best Model):** 36983731334.62773
+- **R² Score (Best Model):** 0.8437357486819116
 
 ## Conclusion
 
-The RandomForestRegressor model with the best hyperparameters achieves an R² score of 0.585, indicating that the model explains approximately 58.5% of the variance in housing prices. Feature importance analysis helps identify the most influential factors affecting housing prices.
-
-## How to Run
-
-1. Clone the repository:
-    
-        sh
-    
-    Copy code
-    
-    git clone https://github.com/steve-yuan-8276/machine_learning.git
-    
-
-2. Navigate to the project directory:
-    
-        sh
-    
-    Copy code
-    
-    cd machine_learning/Austin_housing_Price
-    
-
-3. Install the required dependencies:
-    
-        sh
-    
-    Copy code
-    
-    pip install -r requirements.txt
-    
-
-4. Open the Jupyter Notebook:
-    
-        sh
-    
-    Copy code
-    
-    jupyter notebook austin_housing_price_prediction.ipynb
-    
+The RandomForestRegressor model with the best hyperparameters achieves an R² score of approximately 0.844, indicating that the model explains around 84.4% of the variance in housing prices. Feature importance analysis helps identify the most influential factors affecting housing prices. Residual analysis and statistical tests indicate areas where the model can be further improved.
 
 ## License
 
