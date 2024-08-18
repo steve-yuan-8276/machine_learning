@@ -1,59 +1,70 @@
-# Housing Price Prediction (Linear Regression)
+# Beijing Housing Price Analysis and Prediction
 
-This project demonstrates the use of linear regression to predict housing prices in the United States based on various factors. By applying machine learning techniques, we aim to develop accurate models that can forecast house prices using both single and multiple input variables.
+This project presents an analysis and prediction model for housing prices in Beijing. By applying various data analysis techniques and machine learning models, we aim to explore the factors influencing housing prices and predict future prices based on these factors.
 
 ## Project Overview
 
-Using the data from `us_housing.csv`, this project involves building linear regression models to predict housing prices. The analysis includes developing a single-factor model using area as the input variable and a multi-factor model using multiple variables such as income, housing age, number of rooms, population, and area.
+Using the dataset from Beijing housing data, this project involves conducting an in-depth analysis of housing prices in different districts of Beijing. The project applies linear regression and other analytical techniques to understand the relationship between housing prices and various factors, including location, floor, area, proximity to schools, and subway access.
 
 ## Tasks
 
-1. **Single-Factor Linear Regression Model:**
-   - Load and clean the dataset from `us_housing.csv`.
-   - Develop a linear regression model using area as the input variable.
-   - Evaluate the model's performance and visualize the results.
+1. **Data Exploration and Preprocessing:**
 
-2. **Multi-Factor Linear Regression Model:**
-   - Develop a multi-factor linear regression model using income, housing age, number of rooms, population, and area as input variables.
-   - Evaluate the performance of the multi-factor model.
-   - Predict reasonable house prices using the multi-factor model.
+    - Load and clean the dataset to handle missing values, outliers, and categorical variables.
+    - Perform exploratory data analysis (EDA) to understand the distribution of housing prices and the influence of various factors.
+2. **Feature Engineering:**
+
+    - Create new features based on existing ones, such as logarithmic transformations for skewed data (e.g., area and price).
+    - Handle categorical variables by creating dummy variables for district and other categorical factors.
+3. **Model Development:**
+
+    - Develop a linear regression model to predict housing prices based on selected features.
+    - Evaluate model performance using residual plots, p-values, R-squared values, and other statistical metrics.
+4. **Price Prediction:**
+
+    - Use the developed model to predict housing prices for new data.
+    - Analyze the effect of different factors such as proximity to schools, subway, and district on predicted prices.
 
 ## Solution
 
-The complete analysis, including data preparation, model development, and performance evaluation, is provided in the Jupyter Notebook [us_housing_price_prediction.ipynb](https://github.com/steve-yuan-8276/machine_learning/blob/main/Housing_Price_Prediction(Linear%20Regression)/us_housing_price_prediction.ipynb).
+The complete analysis, including data exploration, feature engineering, model development, and performance evaluation, is provided in the Jupyter Notebook [Beijing_Housing_Analysis_Prediction.ipynb](https://github.com/steve-yuan-8276/machine_learning/blob/main/4.Beijing_housing_price_prediction/Beijing_Housing_Analysis_Prediction.ipynb).
 
 ## Skills Utilized
 
-- **Machine Learning:** Applied linear regression to predict continuous outcomes.
-- **Python:** Utilized Python for data processing, model development, and visualization.
-- **Linear Regression:** Implemented both single-factor and multi-factor linear regression models.
-- **Scikit-Learn:** Used Scikit-Learn for model development and evaluation.
+- **Machine Learning:** Applied linear regression and other techniques to predict continuous outcomes.
+- **Python:** Used Python for data processing, model development, and visualization.
+- **Pandas and Seaborn:** Utilized for data manipulation, statistical analysis, and visualization.
+- **Feature Engineering:** Created new features and handled categorical variables for better model performance.
 
 ## Usage
 
-To use this project, follow these steps:
+To replicate the analysis and predictions in this project, follow these steps:
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/steve-yuan-8276/machine_learning.git
-   ```
+    
+```    
+    git clone https://github.com/steve-yuan-8276/machine_learning.git
+```    
 
 2. Navigate to the project directory:
-   ```bash
-   cd machine_learning/Housing_Price_Prediction(Linear%20Regression)
-   ```
+    
+
+```    
+    cd machine_learning/4.Beijing_housing_price_prediction
+```    
 
 3. Open the Jupyter Notebook:
-   ```bash
-   jupyter notebook us_housing_price_prediction.ipynb
-   ```
+   
+```    
+    jupyter notebook Beijing_Housing_Analysis_Prediction.ipynb
+```    
 
 4. Run the cells in the notebook to perform the analysis and build the prediction models.
 
 ## Conclusion
 
-This project showcases the application of linear regression in predicting housing prices, demonstrating how machine learning techniques can be used to make accurate predictions based on various factors. By comparing single-factor and multi-factor models, we gain insights into the impact of different variables on housing prices.
+This project demonstrates how data analysis and machine learning techniques can be applied to predict housing prices in Beijing. By examining the influence of various factors such as location, proximity to schools, and subway access, the project provides insights into the dynamics of the Beijing housing market.
 
-For more details, refer to the [notebook](https://github.com/steve-yuan-8276/machine_learning/blob/main/Housing_Price_Prediction(Linear%20Regression)/us_housing_price_prediction.ipynb).
+For more details, refer to the [notebook](https://github.com/steve-yuan-8276/machine_learning/blob/main/4.Beijing_housing_price_prediction/Beijing_Housing_Analysis_Prediction.ipynb).
 
 Stay tuned for more updates and new projects!
