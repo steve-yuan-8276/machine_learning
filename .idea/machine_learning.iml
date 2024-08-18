@@ -2,7 +2,7 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="$USER_HOME$/anaconda3/envs/python312" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="UT Analysis Projects" />
     <orderEntry type="module" module-name="UTA-VIRT-DATA-PT-05-2024-U-LOLC" />

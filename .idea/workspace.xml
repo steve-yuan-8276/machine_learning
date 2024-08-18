@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eb81637-2f3a-48a6-b8c1-03e091ed8c76" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/machine_learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/machine_learning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GitLab/UTA-VIRT-DATA-PT-05-2024-U-LOLC/Projects/Project 2/Overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../GitLab/UTA-VIRT-DATA-PT-05-2024-U-LOLC/Projects/Project 2/Overview.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.Beijing_housing_price_prediction/Beijing_Housing_Analysis_Prediction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/4.Beijing_housing_price_prediction/Beijing_Housing_Analysis_Prediction.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +35,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-8169a31fad14-083d02a8fb4b-com.jetbrains.pycharm.ds.sharedIndexes.bundled-DS-241.14494.247" />
+        <option value="bundled-python-sdk-afb2d50b81ac-2ff200790375-com.jetbrains.pycharm.ds.sharedIndexes.bundled-DS-241.18034.23" />
       </set>
     </attachedChunks>
   </component>
