@@ -2,6 +2,10 @@
 
 This project aims to predict housing prices in Austin using various features related to the properties. The project involves data preprocessing, feature engineering, model training, evaluation, and tuning.
 
+## Geo Analysis & interactive dashboard
+
+https://steve-yuan-8276.github.io/Austin_housing_price_analysis/
+
 ## Project Structure
 
 - `austin_house_analysis_visualization.ipynb`: The Jupyter Notebook containing data analysis and visualization.

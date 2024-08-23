@@ -5,16 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eb81637-2f3a-48a6-b8c1-03e091ed8c76" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/3.Austin _housing_Price_Prediction/output.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.Austin _housing_Price_Prediction/outputs/geo_house_df.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.Austin _housing_Price_Prediction/outputs/geo_house_df.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.Austin _housing_Price_Prediction/statics/data/housing_data_details.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.Austin _housing_Price_Prediction/statics/data/housing_data_details.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.Austin _housing_Price_Prediction/statics/data/housing_data_grouped.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.Austin _housing_Price_Prediction/statics/data/housing_data_grouped.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.Austin _housing_Price_Prediction/statics/housing_data_details.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.Austin _housing_Price_Prediction/statics/data/Austin House Price Analysis_files/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.Austin _housing_Price_Prediction/statics/data/Austin House Price Analysis_files/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.Austin _housing_Price_Prediction/statics/data/Austin House Price Analysis_files/d3.v7.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.Austin _housing_Price_Prediction/statics/data/Austin House Price Analysis_files/leaflet-heat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.Austin _housing_Price_Prediction/statics/data/Austin House Price Analysis_files/leaflet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.Austin _housing_Price_Prediction/statics/data/Austin House Price Analysis_files/leaflet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.Austin _housing_Price_Prediction/statics/data/Austin House Price Analysis_files/plotly-latest.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.Austin _housing_Price_Prediction/statics/housing_data_grouped.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.Austin _housing_Price_Prediction/statics/housing_data_grouped.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../GitLab/UTA-VIRT-DATA-PT-05-2024-U-LOLC/Projects/Project 2/Overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../GitLab/UTA-VIRT-DATA-PT-05-2024-U-LOLC/Projects/Project 2/Overview.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Austin _housing_Price_Prediction/geo_analysis_perpareation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/3.Austin _housing_Price_Prediction/geo_analysis_perpareation.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Austin _housing_Price_Prediction/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/3.Austin _housing_Price_Prediction/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Austin _housing_Price_Prediction/statics/data/housing_data_grouped.json" beforeDir="false" afterPath="$PROJECT_DIR$/3.Austin _housing_Price_Prediction/statics/data/housing_data_grouped.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Austin _housing_Price_Prediction/statics/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/3.Austin _housing_Price_Prediction/statics/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
